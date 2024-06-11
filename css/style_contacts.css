@@ -1,0 +1,72 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-position: center;
+
+}
+
+
+.header_myname{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: beige;
+    color: darkblue;
+    height:100px;
+    
+    
+}
+
+#myname{
+    text-align: center;
+    font-size: 75px;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+    background-color: darkblue;
+    color: beige;
+
+}
+
+.menu-item {
+    margin: 0 10px; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: inherit; 
+    font-size: 25px;
+}
+
+/*---------------------------*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: beige;
+    flex-direction: column; 
+    
+}
+
+#idMessage{
+    
+    height: 200px;
+    width: 200px;
+}
+
+

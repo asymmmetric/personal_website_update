@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>contact_page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   
+
+
+    <script src="js/contact_script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style_contacts.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <section class="header_myname">
+            <p id="myname">Artur Symonenko</p>
+        </section>
+        <section class="menu">
+            <section id="about_page" class="menu-item"><a href="index.html">About</a></section>
+            <section id="skills_page" class="menu-item"><a href="skills_page.html">Skills</a></section>
+            <section id="porfolio_page" class="menu-item"><a href="portfolio_page.html">Portfolio</a></section>
+            <section id="contact_page" class="menu-item"><a href="contact_page.html">Contact</a></section>
+        </section>
+    </header>
+
+    <section class="main">
+        <section class="greeting">
+            <h1>If you would like to contact me...</h1>
+            <p>... I would be glad talk to you and answer any questions you would like.</p>
+            <p>Please fill out this form below and will get back to you as soon as I can.</p>
+            <p>Please include your name and email, and, if you would like, you phone number in the body of the message</p>
+
+        </section>
+
+
+        <section id="contact_me" class="contact">
+            <section class="content">
+                <section id="contact_me2">
+                    <h2>CONTACT ME</h2>
+                </section>
+                <section class="contact_form">
+                    <form class="form" action="#">
+                        <p id="formErr"></p><p id="formOK"></p>
+                        <p>Name*: <br><input type="text" placeholder="Write your name" id="idName"></p>
+                        <p>Email*: <br><input type="email" placeholder="Your email" id="idEmail"></p>
+                        <p>Message*: <br><input type="text" placeholder="And your message" id="idMessage"></p><br>
+                        <button type="button" id="sendEmailButton">Send Message</button>
+                    </form>
+                </section>
+            </section>
+        </section>
+
+    </section>
+
+
+
+</body>
+
+</html>
